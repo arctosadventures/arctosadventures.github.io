@@ -9,7 +9,7 @@
 
     background: url(/css/img/header-bg-mountains.png) center center;
     background-size: cover;
-    height: 568px;
+    height: 540px;
     color: #f5f5f5;
 
     text-align: center;
@@ -23,10 +23,7 @@
     color: #f0f0f0;
     display: inline;
     text-decoration: none;
-}
-
-.site-header hgroup {
-    margin: 50px 15% 0 15%;
+    line-height: 1.5;
 }
 
 .header-logo {
@@ -39,16 +36,29 @@
     width: 100px;
 }
 
+.site-header hgroup {
+    margin: 40px 15% 0 15%;
+}
+
+.site-header h1 {
+    line-height: 1.2;   
+    font-weight: 400;    
+}
+
+.site-header h3 {
+    line-height: 1.5;
+}
+
 .header-cta {
     font-size: 14px;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 a .header-btn {
     margin: 0 20%;
     padding: 5px;
     border: 1px solid #f0f0f0;
-    font-size: 18px;
+    font-size: 22px;
     -webkit-transition-property: background;
        -moz-transition-property: background;
          -o-transition-property: background;
@@ -65,5 +75,9 @@ a .header-btn {
 
 a .header-btn:hover {
     border: 1px solid #fff;
-    background-color: #3cb878;
 }
+
+/** 
+* Mailchimp / Subscription Section
+*/
+

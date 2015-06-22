@@ -9,7 +9,7 @@
 $base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1;
 
 $spacing-unit:     30px;
 
@@ -46,5 +46,6 @@ $on-laptop:        800px;
         "base",
         "layout",
         "syntax-highlighting",
-        url(http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400)
+        url(http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400),
+        url(http://fonts.googleapis.com/css?family=Montserrat:400,700)
 ;
