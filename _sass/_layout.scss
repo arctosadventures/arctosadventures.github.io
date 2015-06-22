@@ -23,7 +23,7 @@
     color: #f0f0f0;
     display: inline;
     text-decoration: none;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 .header-logo {
@@ -63,10 +63,10 @@ a .header-btn {
        -moz-transition-property: background;
          -o-transition-property: background;
             transition-property: background;
-    -webkit-transition-duration: 0.5s;
-       -moz-transition-duration: 0.5s;
-         -o-transition-duration: 0.5s;
-            transition-duration: 0.5s;
+    -webkit-transition-duration: 0.2s;
+       -moz-transition-duration: 0.2s;
+         -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
     -webkit-transition-timing-function: linear;
        -moz-transition-timing-function: linear;
          -o-transition-timing-function: linear;
@@ -75,9 +75,65 @@ a .header-btn {
 
 a .header-btn:hover {
     border: 1px solid #fff;
+    background-color: rgba(189,195,199,0.1);
+    color: #fff;
 }
 
 /** 
 * Mailchimp / Subscription Section
 */
 
+.mailchimp-section {
+    background: url(/css/img/karhunpuolikas.png) center center;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.9;
+}
+
+#mc_embed_signup {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#mc_embed_signup_scroll {
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
+
+#mc_embed_signup_scroll h2 {
+    font-weight: 400;
+}
+
+.mc-field-group label {
+    display: block;
+}
+
+.mc-field-group input {
+    font-size: 20px;
+    max-width: 85%;
+    padding: 10px 3%;
+    margin: 10px 0;
+}
+
+#mc-embedded-subscribe.button {
+    padding: 10px 3%;
+    background-color: #2980b9;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 10px;
+    min-width: 30%;
+}
+
+#mc-embedded-subscribe.button:hover {
+    background-color: #3498db;
+}
+
+/**
+* Footer
+*/
+
+.site-footer {
+    min-height: 200px;
+    background-color: #f73434;
+}
