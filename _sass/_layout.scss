@@ -81,14 +81,14 @@
     margin-top: 40px;
 }
 
-a .header-btn {
+.header-btn {
     margin: 0 20%;
     padding: 5px;
     border: 1px solid #f0f0f0;
     font-size: 22px;
 }
 
-a .header-btn:hover {
+.header-btn:hover {
     border: 1px solid #fff;
     background-color: rgba(189,195,199,0.1);
     color: #fff;
@@ -149,11 +149,20 @@ a .header-btn:hover {
 */
 
 .site-footer {
-    min-height: 200px;
-    background-color: #292929;
+    background-color: #121212;
     color: #ecf0f1;
     padding: 20px 5%;
     text-align: center;
+}
+
+.site-footer:hover {
+    background-color: #151515;
+}
+
+.site-footer a {
+    color: #fff;
+    font-size: 26px;
+    margin: 0 5%;
 }
 
 .footer-content {
@@ -165,4 +174,115 @@ a .header-btn:hover {
 .footer-content h2 {
     margin-top: 20px;
     font-weight: 700;
+}
+
+
+/**
+* Product Pages start
+*/
+
+
+
+.top-nav-bar {
+    color: #fff;
+    background-color: #0370C2;
+    padding: 10px 5%;
+}
+
+.top-nav-bar p {
+    display: inline;
+}
+
+.top-nav-bar a {
+    color: #fff;
+    float: right;
+    margin: -5px 10px 0 10px;
+    font-size: 25px;
+    line-height: 1.0;
+}
+
+/**
+* Tentsile product page
+* HEADER
+*/
+
+.tentsile-header {
+    background: url(/css/img/tentsile-header.png) center center;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+    min-height: 560px;
+}
+
+.product-header-content {
+    text-align: center;
+    width: 60%;
+    float: right;
+    margin-top: 100px;
+    line-height: 1.2;
+    font-family: 'Montserrat';
+    background-color: rgba(10,10,10,0.8);
+    padding: 25px 5px;
+}
+
+.product-header-content h1 {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.product-header-content h3 {
+    margin-top: 40px;
+}
+
+.product-header-content p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.product-header-content a {
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: 700;
+    background-color: #27ae60;
+}
+
+.product-header-content a:hover {
+    text-decoration: none;
+    background-color: #2D5C95;
+}
+
+/**
+* Tentsile product page
+* CONTENT
+*/
+
+.product-content {
+    min-height: 900px;
+}
+
+.product-content figure {
+    width: 50%;
+    float: right;
+    background: url(/css/img/inside-tentsile.png) center center;
+    background-size: cover;
+    height: 450px;
+}
+
+.product-content figure:first-of-type {
+    float: left;
+    background: url(/css/img/tentsile-village.png) center center;
+}
+
+.product-content aside {
+    width: 50%;
+    height: 450px;
+    text-align: center;
+}
+
+.product-content aside:first-of-type {
+    float: right;
+}
+
+.product-content h3, .product-content p {
+    margin-bottom: 0;
 }
