@@ -16,9 +16,10 @@
 }
 
 /**
- * Site header content
- */
-
+* Site header content
+*
+* Header top - Logo + SoMe
+*/
 .site-header a {
     color: #f0f0f0;
     display: inline;
@@ -29,20 +30,46 @@
 .header-logo {
     width: 50%;
     text-align: left;
+    float: left;
 }
 
 .header-logo img {
-    margin: 20px;
+    padding: 20px;
     width: 100px;
 }
 
+.right-header-content {
+    font-size: 20px;
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.right-header-content a {
+    margin-right: 35px;
+    color: #fff;
+}
+
+.right-header-content a:hover {
+    color: #ecf0f1;
+}
+
+.right-header-content i {
+    margin-top: 18px;
+}
+
+/**
+* Header content - Text and call-to-action
+*/
+
 .site-header hgroup {
-    margin: 40px 15% 0 15%;
+    padding: 50px 5% 0 5%;
 }
 
 .site-header h1 {
     line-height: 1.2;   
-    font-weight: 400;    
+    font-weight: 400;  
+    padding-top: 50px; 
 }
 
 .site-header h3 {
@@ -59,18 +86,6 @@ a .header-btn {
     padding: 5px;
     border: 1px solid #f0f0f0;
     font-size: 22px;
-    -webkit-transition-property: background;
-       -moz-transition-property: background;
-         -o-transition-property: background;
-            transition-property: background;
-    -webkit-transition-duration: 0.2s;
-       -moz-transition-duration: 0.2s;
-         -o-transition-duration: 0.2s;
-            transition-duration: 0.2s;
-    -webkit-transition-timing-function: linear;
-       -moz-transition-timing-function: linear;
-         -o-transition-timing-function: linear;
-            transition-timing-function: linear;
 }
 
 a .header-btn:hover {
@@ -135,5 +150,19 @@ a .header-btn:hover {
 
 .site-footer {
     min-height: 200px;
-    background-color: #f73434;
+    background-color: #292929;
+    color: #ecf0f1;
+    padding: 20px 5%;
+    text-align: center;
+}
+
+.footer-content {
+    margin: 20px 0;
+    line-height: 1.2;
+
+}
+
+.footer-content h2 {
+    margin-top: 20px;
+    font-weight: 700;
 }
