@@ -55,7 +55,7 @@
 }
 
 .right-header-content i {
-    margin-top: 18px;
+    margin-top: 22px;
 }
 
 /**
@@ -83,9 +83,10 @@
 
 .header-btn {
     margin: 0 20%;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid #f0f0f0;
-    font-size: 22px;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .header-btn:hover {
@@ -99,10 +100,8 @@
 */
 
 .mailchimp-section {
-    background: url(/css/img/karhunpuolikas.png) center center;
-    background-size: cover;
     height: 100%;
-    opacity: 0.9;
+    background-color: #fff;
 }
 
 #mc_embed_signup {
@@ -131,32 +130,37 @@
 }
 
 #mc-embedded-subscribe.button {
-    padding: 10px 3%;
+    padding: 15px 11%;
     background-color: #2980b9;
     border: none;
     color: #fff;
-    font-size: 22px;
+    font-size: 14px;
     margin-top: 10px;
     min-width: 30%;
+    font-weight: 600;
 }
 
 #mc-embedded-subscribe.button:hover {
     background-color: #3498db;
 }
 
+
 /**
 * Footer
 */
 
 .site-footer {
-    background-color: #121212;
     color: #ecf0f1;
     padding: 20px 5%;
     text-align: center;
+    background: url(/css/img/yonder-bear.png) center center;
+    background-color: #151515;
+    background-size: cover;
+    height: 100%;
 }
 
 .site-footer:hover {
-    background-color: #151515;
+    background-color: #181818;
 }
 
 .site-footer a {
