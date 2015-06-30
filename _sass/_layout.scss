@@ -34,8 +34,8 @@
 }
 
 .header-logo img {
-    padding: 20px;
-    width: 130px;
+    padding: 25px 35px;
+    width: 70px;
 }
 
 .right-header-content {
@@ -69,7 +69,7 @@
 .site-header h1 {
     line-height: 1.2;   
     font-weight: 400;  
-    padding-top: 50px; 
+    padding-top: 70px; 
 }
 
 .site-header h3 {
@@ -181,11 +181,35 @@
 }
 
 
+@media (min-width: 324px) {
+    .site-header h1 {
+        padding-top: 120px;
+    }
+}
+
+@media (min-width: 499px) {
+    .site-header h1 {
+        padding-top: 140px;
+    }
+
+    .header-btn {
+        margin: 0 35%;
+    }
+}
+
+@media (min-width: 750px) {
+    .header-cta {
+        margin-top: 65px;
+    }
+
+    .site-header hgroup {
+        padding: 50px 15% 0 15%;
+    }
+}
+
 /**
 * Product Pages start
 */
-
-
 
 .top-nav-bar {
     color: #fff;
@@ -205,13 +229,34 @@
     line-height: 1.0;
 }
 
+@media (min-width: 925px) {
+
+    .top-nav-bar {
+        color: #fff;
+        background-color: #0370C2;
+        padding: 10px 5%;
+    }
+
+    .top-nav-bar p {
+        display: inline;
+    }
+
+    .top-nav-bar a {
+        color: #fff;
+        float: right;
+        margin: -5px 10px 0 10px;
+        font-size: 25px;
+        line-height: 1.0;
+    }
+}
+
 /**
 * Tentsile product page
 * HEADER
 */
 
 .tentsile-header {
-    background: url(/css/img/tentsile-header.png) center center;
+    background: url(/css/img/tentsile-header.png) right center;
     background-size: cover;
     height: 100%;
     color: #fff;
@@ -220,9 +265,8 @@
 
 .product-header-content {
     text-align: center;
-    width: 60%;
+    width: 100%;
     float: right;
-    margin-top: 100px;
     line-height: 1.2;
     font-family: 'Montserrat';
     background-color: rgba(10,10,10,0.8);
@@ -230,22 +274,25 @@
 }
 
 .product-header-content h1 {
-    font-weight: 800;
-    font-size: 60px;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 20px 3% 0 3%;
 }
 
 .product-header-content h3 {
     margin-top: 40px;
+    padding: 0 3%;
 }
 
 .product-header-content p {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
+    padding: 0 3%;
 }
 
 .product-header-content a {
     color: #fff;
-    padding: 10px 30px;
+    padding: 10px 20px;
     font-weight: 700;
     background-color: #27ae60;
 }
@@ -255,41 +302,74 @@
     background-color: #2D5C95;
 }
 
+
+@media (min-width: 925px) {
+
+    .tentsile-header {
+        background: url(/css/img/tentsile-header.png) center center;
+    }
+
+    .product-header-content {
+        width: 60%;
+        margin-top: 100px;
+        padding: 25px 5px;
+    }
+
+    .product-header-content h1 {
+        font-weight: 800;
+        font-size: 60px;
+    }
+
+    .product-header-content h3 {
+        margin-top: 40px;
+    }
+
+    .product-header-content p {
+        font-size: 20px;
+    }
+}
+
 /**
 * Tentsile product page
 * CONTENT
 */
 
-.product-content {
-    min-height: 900px;
+@media (min-width: 925px) {
+    
+    .product-content {
+        min-height: 900px;
+    }
+
+    .product-content figure {
+        width: 50%;
+        float: right;
+        background: url(/css/img/inside-tentsile.png) center center;
+        background-size: cover;
+        height: 450px;
+    }
+
+    .product-content figure:first-of-type {
+        float: left;
+        background: url(/css/img/tentsile-village.png) center center;
+    }
+
+    .product-content aside {
+        width: 50%;
+        height: 450px;
+        text-align: center;
+    }
+
+    .product-content aside:first-of-type {
+        float: right;
+    }
+
+    .product-content h3, .product-content p {
+        margin-bottom: 0;
+    }
+
 }
 
-.product-content figure {
-    width: 50%;
-    float: right;
-    background: url(/css/img/inside-tentsile.png) center center;
-    background-size: cover;
-    height: 450px;
-}
 
-.product-content figure:first-of-type {
-    float: left;
-    background: url(/css/img/tentsile-village.png) center center;
-}
-
-.product-content aside {
-    width: 50%;
-    height: 450px;
-    text-align: center;
-}
-
-.product-content aside:first-of-type {
-    float: right;
-}
-
-.product-content h3, .product-content p {
-    margin-bottom: 0;
-}
 
 /**
 * Stories front page
