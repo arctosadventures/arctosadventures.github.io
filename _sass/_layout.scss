@@ -121,7 +121,7 @@
 
 #how-it-works h2 {
     font-weight: 600;
-    color: #202020;
+    color: #303030;
     font-size: 30px;
     line-height: 1.5;
     padding: 0 3%;
@@ -171,6 +171,14 @@
     width: 200px;
     padding: 10px 10px;
     margin: 10px 0;
+}
+
+.mc-field-group input:-moz-placeholder {
+    color: rgba(0,0,50,0.5);
+}
+ 
+.mc-field-group input::-webkit-input-placeholder {
+    color: rgba(0,0,50,0.5);
 }
 
 #mc-embedded-subscribe.button {
