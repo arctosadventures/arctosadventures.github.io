@@ -7,7 +7,7 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
-    background: url(/css/img/header-bg-mountains.png) center center;
+    background: url(/css/img/header-img.png) center center;
     background-size: cover;
     height: 100%;
     color: #f5f5f5;
@@ -28,34 +28,33 @@
 }
 
 .header-logo {
-    width: 50%;
-    text-align: left;
-    float: left;
+    text-align: center;
+    margin: 25px 25px 0 0;
+    float: right;
 }
 
 .header-logo img {
-    padding: 25px 35px;
-    width: 70px;
+    width: 50px;
 }
 
-.right-header-content {
+.social-header-content {
     font-size: 20px;
-    float: right;
-    text-align: right;
+    float: left;
+    text-align: left;
     width: 50%;
 }
 
-.right-header-content a {
-    margin-right: 35px;
+.social-header-content a {
+    margin-left: 35px;
     color: #fff;
 }
 
-.right-header-content a:hover {
+.social-header-content a:hover {
     color: #ecf0f1;
 }
 
-.right-header-content i {
-    margin-top: 27px;
+.social-header-content i {
+    margin-top: 42px;
 }
 
 /**
@@ -63,17 +62,19 @@
 */
 
 .site-header hgroup {
-    padding: 50px 5% 0 5%;
+    padding: 100px 5% 0 5%;
 }
 
 .site-header h1 {
     line-height: 1.2;   
-    font-weight: 400;  
-    padding-top: 70px; 
+    font-weight: 700;  
+    padding-top: 20px; 
 }
 
 .site-header h3 {
     line-height: 1.5;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .header-cta {
@@ -95,13 +96,56 @@
     color: #fff;
 }
 
+/**.search-bar {
+*    background-color: rgba(190,190,190,0.6);
+*    position: absolute;
+*    bottom: 0;
+*    left: 0;
+*    right: 0;
+*    height: 30px;
+*}
+*/
+
+
+/** 
+* Landing Page / "How it works" section
+*/
+
+#how-it-works {
+    min-height: 1000px;
+    height: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#how-it-works h2 {
+    font-weight: 600;
+    color: #202020;
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 0 3%;
+}
+
+
+@media (min-width: 700px) {
+    
+    #how-it-works img {
+        width: 50%;
+    }
+
+    #how-it-works aside:first-child {
+        width: 50%;
+        float: left;
+    }
+}
+
 /** 
 * Mailchimp / Subscription Section
 */
 
 .mailchimp-section {
     height: 100%;
-    background-color: #fff;
 }
 
 #mc_embed_signup {
@@ -124,24 +168,24 @@
 
 .mc-field-group input {
     font-size: 20px;
-    max-width: 85%;
-    padding: 10px 3%;
+    width: 200px;
+    padding: 10px 10px;
     margin: 10px 0;
 }
 
 #mc-embedded-subscribe.button {
-    padding: 15px 11%;
-    background-color: #2980b9;
+    padding: 15px 11px;
+    background-color: #60bf71;
     border: none;
     color: #fff;
     font-size: 14px;
     margin-top: 10px;
-    min-width: 30%;
     font-weight: 600;
+    width: 220px;
 }
 
 #mc-embedded-subscribe.button:hover {
-    background-color: #3498db;
+    background-color: #7cc088;
 }
 
 
@@ -189,7 +233,7 @@
 
 @media (min-width: 499px) {
     .site-header h1 {
-        padding-top: 140px;
+        padding-top: 15px;
     }
 
     .header-btn {

@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+$base-font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1;
@@ -46,7 +46,6 @@ $on-laptop:        800px;
         "base",
         "layout",
         "syntax-highlighting",
-        url(http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400),
         url(http://fonts.googleapis.com/css?family=Montserrat:400,700),
         url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css)
 ;
