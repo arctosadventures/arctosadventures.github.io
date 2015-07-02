@@ -194,7 +194,6 @@
     border: none;
     color: #fff;
     font-size: 14px;
-    margin-top: 10px;
     font-weight: 600;
     width: 220px;
 }
@@ -283,6 +282,15 @@
 
     .site-header h3 {
         font-size: 1.5em;
+    }
+
+    .mc-field-group input {
+        width: 280px;
+        padding: 10px 20px;
+    }
+
+    #mc-embedded-subscribe.button {
+        width: 320px;
     }
 
 }
