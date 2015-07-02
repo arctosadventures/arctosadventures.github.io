@@ -50,7 +50,7 @@
 }
 
 .social-header-content a:hover {
-    color: #ecf0f1;
+    color: #FEC841;
 }
 
 .social-header-content i {
@@ -73,13 +73,14 @@
 
 .site-header h3 {
     line-height: 1.5;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 40px;
 }
 
 .header-cta {
     font-size: 14px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .header-btn {
@@ -154,12 +155,14 @@
 }
 
 #mc_embed_signup_scroll {
-    font-family: 'Open Sans';
     font-weight: normal;
 }
 
 #mc_embed_signup_scroll h2 {
     font-weight: 400;
+    font-size: 1.2em;
+    margin: 0 3% 8px 3%;
+    line-height: 1.2;
 }
 
 .mc-field-group label {
@@ -179,11 +182,13 @@
  
 .mc-field-group input::-webkit-input-placeholder {
     color: rgba(0,0,50,0.5);
+    font-style: italic;
+    font-size: 0.9em;
 }
 
 #mc-embedded-subscribe.button {
     padding: 15px 11px;
-    background-color: #60bf71;
+    background-color: #EFAE1C;
     border: none;
     color: #fff;
     font-size: 14px;
@@ -193,7 +198,7 @@
 }
 
 #mc-embedded-subscribe.button:hover {
-    background-color: #7cc088;
+    background-color: #FEC841;
 }
 
 
