@@ -178,6 +178,8 @@
 
 .mc-field-group input:-moz-placeholder {
     color: rgba(0,0,50,0.5);
+    font-style: italic;
+    font-size: 0.9em;
 }
  
 .mc-field-group input::-webkit-input-placeholder {
@@ -244,24 +246,45 @@
     }
 }
 
-@media (min-width: 499px) {
+@media (min-width: 525px) {
     .site-header h1 {
-        padding-top: 15px;
+        padding-top: 50px;
+        font-size: 2.2em;
     }
 
-    .header-btn {
-        margin: 0 35%;
+    .site-header h3 {
+        font-size: 1.2em;
     }
 }
 
 @media (min-width: 750px) {
-    .header-cta {
-        margin-top: 65px;
+    .site-header h1 {
+        padding-top: 110px;
     }
 
     .site-header hgroup {
         padding: 50px 15% 0 15%;
     }
+
+    .social-header-content a {
+        margin-left: 50px;
+    }
+
+    .header-logo {
+        margin-right: 50px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .site-header h1 {
+        font-size: 3em;
+        padding-top: 140px;
+    }
+
+    .site-header h3 {
+        font-size: 1.5em;
+    }
+
 }
 
 /**
