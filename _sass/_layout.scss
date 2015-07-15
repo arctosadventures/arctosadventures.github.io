@@ -7,7 +7,7 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
-    background: "/css/img/kvalvika.png";
+    background: transparent!important;
     overflow: hidden;
     background-size: cover;
     color: #f5f5f5;
@@ -564,4 +564,5 @@ video {
     display: inline-block;
     z-index: -1;
     -webkit-transform-style: preserve-3d;
+    background-color: #fdfdfd;
 }
