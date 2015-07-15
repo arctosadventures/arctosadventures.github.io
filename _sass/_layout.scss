@@ -563,4 +563,5 @@
 video {
     display: inline-block;
     z-index: -1;
+    -webkit-transform-style: preserve-3d;
 }
