@@ -7,10 +7,11 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
-    background: url(/css/img/header-img.png) center center;
+    background: transparent!important;
+    overflow: hidden;
     background-size: cover;
-    height: 100%;
     color: #f5f5f5;
+    width: 100%;
 
     text-align: center;
 }
@@ -544,3 +545,22 @@
     border: 2px solid #fff;
 }
 
+
+
+/* Video */
+
+#header-video {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-size: cover;
+}
+
+video {
+    display: inline-block;
+    z-index: -1;
+}
