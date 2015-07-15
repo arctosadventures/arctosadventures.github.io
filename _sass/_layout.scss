@@ -7,12 +7,12 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
-    background: transparent!important;
+    background: "/css/img/kvalvika.png";
     overflow: hidden;
     background-size: cover;
     color: #f5f5f5;
     width: 100%;
-
+    z-index: -2;
     text-align: center;
 }
 
