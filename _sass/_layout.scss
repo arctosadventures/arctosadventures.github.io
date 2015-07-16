@@ -245,9 +245,33 @@
 
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1600px) {
     #how-it-works {
-        margin: 0 400px;
+        margin: 0 200px;
+    }
+
+    #how-it-works h2 {
+        font-size: 40px;
+    }
+
+    #how-it-works p {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+
+    #how-it-works h3 {
+        font-size: 30px;
+    }
+
+    .mailing-list-optin {
+        margin-top: 280px;
+    }
+}
+
+
+@media (min-width: 2050px) {
+    .mailing-list-optin {
+        margin-top: 320px;
     }
 }
 
