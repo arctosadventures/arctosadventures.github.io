@@ -6,7 +6,7 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
-    background: url(/css/img/arctos-header-lightblue.png) center center;
+    background: url(/css/img/arctos-header-lightblue-shortest.png) center center;
     /*background: transparent!important;*/
     overflow: hidden;
     background-size: cover;
@@ -17,7 +17,7 @@
 
 @media (min-width: 1200px) {
     .site-header {
-        min-height: 640px;
+        min-height: 700px;
     }
 }
 
@@ -248,6 +248,11 @@
 
 }
 
+@media (min-width: 1800px) {
+    #how-it-works {
+        margin: 0 400px;
+    }
+}
 
 /** 
 * Mailchimp / Subscription Section
