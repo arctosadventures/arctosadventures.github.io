@@ -11,6 +11,10 @@
 	    
 	</section>
 
+	<!-- JQuery -->
+
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
 
 	<!-- Google Analytics scripts start -->
 
@@ -51,10 +55,19 @@
 	window._fbq.push(['track', '6026794802357', {'value':'0.00','currency':'EUR'}]);
 	</script>
 	<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6026794802357&amp;cd[value]=0.00&amp;cd[currency]=EUR&amp;noscript=1" /></noscript>
-	
+
 	<script type="text/javascript">
 
-		$(window).on('beforeunload', function() { getElementById("header-video").hide(); });
+		$('#mail-optin-link').click( function( event ) {
+
+			event.preventDefault();
+
+			$('html, body').animate({
+				scrollTop: 0
+			}, 100)
+
+			$('input[name="EMAIL"]').focus();
+		});
 
 	</script>
 
