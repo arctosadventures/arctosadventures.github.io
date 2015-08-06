@@ -113,6 +113,29 @@
 *}
 */
 
+/**
+* Landing Page / "Why" Section
+*/
+
+#the-why-section {
+    height: 100%;
+    background-color: #1cedc8;
+    color: #fff;
+    padding: 60px 40px 40px 40px;
+}
+
+#the-why-section h2 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+
+#the-why-section hr {
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+}
 
 /** 
 * Landing Page / "How it works" section
@@ -192,7 +215,7 @@
     padding: 0 3%;
 }
 
-.mailing-list-optin #small-line {
+.small-line {
     width: 80px;
     display: inline-block;
     text-align: center;
@@ -205,6 +228,7 @@
     height: 100%;
     min-height: 380px;
     background-color: #eee;
+    padding-top: 30px;
 }
 
 .meet-us-section h3 {
