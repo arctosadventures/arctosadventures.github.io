@@ -7,7 +7,7 @@
     // Positioning context for the mobile navigation icon
     position: relative;
     background: url(/css/img/arctos-header-lightblue-shortest.png) center center;
-    /*background: transparent!important;*/
+    
     overflow: hidden;
     background-size: cover;
     color: #f5f5f5;
@@ -15,10 +15,12 @@
     text-align: center;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
     .site-header {
         min-height: 700px;
+        background: transparent!important;
     }
+
 }
 
 /**
@@ -768,3 +770,8 @@ video {
     z-index: -1;
 }
 
+@media (max-width: 1099px) {
+    #header-video {
+        display: none;
+    }
+}
