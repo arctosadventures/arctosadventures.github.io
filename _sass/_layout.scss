@@ -83,14 +83,14 @@
 
 .site-header h3 {
     line-height: 1.5;
-    font-size: 21px;
+    font-size: 12px;
     font-weight: 300;
     margin-top: 40px;
 }
 
 .header-cta {
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 12px;
+    margin-top: 8px;
 }
 
 .header-btn {
@@ -239,7 +239,7 @@
 .media-section {
     text-align: center;
     height: 100%;
-    background-color: #eee;
+    background-color: #dedede;
     padding-top: 30px;
     padding-bottom: 20px;
 }
@@ -365,7 +365,7 @@
 
 #mc_embed_signup_scroll h2 {
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 13px;
     margin: 0 3% 8px 3%;
     line-height: 1.2;
 }
@@ -446,7 +446,6 @@
     font-weight: 700;
 }
 
-
 @media (min-width: 324px) {
     .site-header h1 {
         padding-top: 120px;
@@ -471,6 +470,10 @@
 
     .site-header hgroup {
         padding: 50px 15% 0 15%;
+    }
+
+    #mc_embed_signup_scroll h2 {
+        font-size: 16px;
     }
 
     .social-header-content a {
