@@ -1,8 +1,8 @@
 # Site settings
 title: Arctos
-email: info@yonder.fi
+email: hello@arctos.io
 description: > # this means to ignore newlines until "baseurl:"
-  Arctos is a try-out service for high-quality outdoors gear, operating in Helsinki, Finland.
+  Book nature experiences, try and buy outdoor gear. Now operating in Helsinki, Finland.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://arctosadventures.github.io" # the base hostname & protocol for your site
 twitter_username: mikipernu
