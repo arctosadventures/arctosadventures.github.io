@@ -10,4 +10,4 @@ github_username:  mikipernu
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
