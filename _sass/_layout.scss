@@ -78,7 +78,7 @@
     font-family: brandon-grotesque, sans-serif;
     font-weight: 900;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .site-header h3 {
@@ -130,12 +130,10 @@
 
 #the-why-section h2 {
     font-size: 26px;
-    font-weight: 50vh0;
     line-height: 1;
     padding-bottom: 15px;
     text-align: center;
     color: #777;
-    font-family: "brandon-grotesque", sans-serif;
 }
 
 #the-why-section p {
@@ -360,6 +358,13 @@
 
 .mailchimp-section {
     height: 100%;
+    margin-top: -24px;
+}
+
+@media (min-width: 646px) {
+    .mailchimp-section {
+       margin-top: 78px; 
+    }
 }
 
 #mc_embed_signup {
@@ -799,7 +804,7 @@ video {
     text-align: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 646px) {
     #mc_embed_signup div.mce_inline_error {
         display: block !important;
         font-size: 10px !important;
