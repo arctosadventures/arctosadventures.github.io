@@ -821,3 +821,13 @@ img.emoji {
   margin: 0px !important;
   display: inline !important;
 }
+
+#korea-header {
+    font-size: 80px;
+}
+
+@media (min-width: 820px) {
+    #korea-header {
+        font-size: 120px;
+    }
+}
