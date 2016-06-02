@@ -791,6 +791,11 @@ video {
     z-index: -1;
 }
 
+#mc-embedded-subscribe {
+    cursor: pointer;
+    cursor: hand;
+}
+
 @media (max-width: 1099px) {
     #header-video {
         display: none;
