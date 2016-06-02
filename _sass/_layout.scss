@@ -815,3 +815,9 @@ video {
         font-size: 10px !important;
     }
 }
+
+img.emoji {  
+  // Override any img styles to ensure Emojis are displayed inline
+  margin: 0px !important;
+  display: inline !important;
+}
