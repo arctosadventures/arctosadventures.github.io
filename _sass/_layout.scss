@@ -459,9 +459,10 @@
     font-weight: 700;
 }
 
-@media (min-width: 324px) {
+@media (min-width: 300px) {
     .site-header h1 {
-        padding-top: 100px;
+        padding-top: 50px;
+        font-size: 60px;
     }
 }
 
